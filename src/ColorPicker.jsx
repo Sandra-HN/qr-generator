@@ -24,7 +24,7 @@ import {
 //   EditableInputRGBA,
 //   EditableInputHSLA,
 // } from "@uiw/react-color";
-export const ColorPicker = ({ hex, setHex, setClose }) => {
+export const ColorPicker = ({ hex, setHex, setClose, disableAlpha = true }) => {
   return (
     <div
       style={{
@@ -61,10 +61,14 @@ export const ColorPicker = ({ hex, setHex, setClose }) => {
         style={{
           width: "100%",
         }}
-        disableAlpha={true}
+        disableAlpha={disableAlpha}
         color={hex}
         onChange={(color) => {
-          setHex(color.hex);
+          if (disableAlpha) {
+            setHex(color.hex);
+          } else {
+            setHex(color.hexa);
+          }
         }}
       />
     </div>
