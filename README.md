@@ -1,2 +1,3 @@
 # qr-generator
-QR Generator
+
+Theeb QR Generator

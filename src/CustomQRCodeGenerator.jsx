@@ -121,8 +121,8 @@ const CustomQRCodeGenerator = () => {
         </a>
         <div className="flex items-center sm:flex-row flex-col w-fit">
           <img src={KHQRLogo} className="w-auto h-24 sm:w-20 sm:h-20" />
-          <h1 className="sm:text-2xl text-sm font-bold text-primary w-full sm:w-20">
-            QR Generator
+          <h1 className="sm:text-2xl text-sm font-bold text-primary w-full sm:w-fit">
+            Theeb<br></br>QR Generator
           </h1>
         </div>
       </div>

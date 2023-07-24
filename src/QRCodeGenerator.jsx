@@ -70,7 +70,9 @@ const QRCodeGenerator = () => {
         <img src={KHLogo} className="w-2/5  sm:w-40 h-auto" />
         <div className="flex items-center w-3/5 sm:w-fit">
           <img src={KHQRLogo} className="w-2/5 h-auto sm:w-20 sm:h-20" />
-          <h1 className="text-2xl font-bold text-primary w-20">QR Generator</h1>
+          <h1 className="text-2xl font-bold text-primary w-20">
+            Theeb QR Generator
+          </h1>
         </div>
       </div>
       <div className="flex items-center  justify-between gap-2  flex-col lg:flex-row w-full px-2 sm:px-24">
